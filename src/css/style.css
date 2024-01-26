@@ -1,0 +1,42 @@
+#topButton {
+    display: none;
+    position: fixed;
+    bottom: 33px;
+    right: 12px;
+    background-color: #f5b939;
+    border: none;
+    border-radius: 50%;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+    line-height: 36px;
+    width: 36px;
+    z-index: 100;
+    text-align: center;
+  }
+  
+  #topButton .arrow {
+    border: solid black;
+    border-width: 0 6px 6px 0;
+    display: inline-block;
+    padding: 3px;
+    -webkit-transform: rotate(225deg);
+            transform: rotate(225deg);
+  }
+  
+  #topButton:hover {
+    cursor: pointer;
+    background-color: rgb(154, 151, 151);
+  }
+
+  .container{
+    display: grid;
+    height: 100vh;
+    grid-template-rows:repeat(3,1fr);
+    background-color: rgb(31, 30, 30);
+  }
+  .imgContainer{
+    display: grid;
+    grid-row: 2/3;
+    justify-items:center ;
+  }
